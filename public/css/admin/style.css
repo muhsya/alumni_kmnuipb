@@ -1,0 +1,73 @@
+.login-body {
+    background-image: url(../img/borobudur.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.login-wrapper {
+    margin-top: 100px;
+}
+
+.card-form {
+    border-radius: 0px;
+    padding: 10px 0px;
+}
+
+.form-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+
+.social-login {
+    padding: 20px;
+}
+
+.social-login i {
+    font-size: 2em;
+}
+
+.fa-facebook-square {
+    color: darkblue;
+    float: right;
+}
+
+.fa-google-plus-square {
+    color: #ff0000;
+}
+
+.widget-small {
+    border-radius: 0px;
+}
+
+.icon {
+    padding: 0px;
+}
+
+.login-logo {
+    display: block;
+    margin: auto;
+    position: relative;
+    height: 120px;
+    padding: 10px;
+}
+
+#file {
+    display: none;
+}
+
+#image {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .report-image {
+        width: 100%;
+    }
+}

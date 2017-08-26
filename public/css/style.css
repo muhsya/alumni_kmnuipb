@@ -1,0 +1,81 @@
+body {
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.inner-content {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+#data-alumni {
+    overflow: hidden;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.field {
+    position: relative;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.form-open {
+    left: 0;
+    float: left;
+}
+
+.form-close {
+    left: 200%;
+    float: right;
+}
+
+#photo-label {
+    background-color: #4ba2d6;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+input#photo {
+    display: none;
+}
+
+.next-field {
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: 700;
+    color: green;
+    transition: 0.5s all;
+}
+
+.arrow-slider {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#prev {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+#save-button {
+    float: right;
+}
