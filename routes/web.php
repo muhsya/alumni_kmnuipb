@@ -18,6 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('isi/data/alumni/kmnu/ipb', 'AlumniController@addAlumni');
+Route::get('isi-data-alumni-kmnu-ipb', 'AlumniController@addAlumni');
 Route::post('isi/data/alumni/kmnu/ipb', 'AlumniController@saveDataAlumni');
 Route::post('/faculties', 'FacultyController@getDepartments');
